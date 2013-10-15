@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-$primary-color: #c4ca49;
+$primary-color: #495aca;
 
 @mixin border-radius($radius) {
 	-webkit-border-radius: $radius;
@@ -11,6 +11,7 @@ $primary-color: #c4ca49;
 	-o-border-radius: $radius;
 	border-radius: $radius;
 }
+
 
 h1, h2, h3, h4, h5 {
 	color: $primary-color;
@@ -44,5 +45,6 @@ article {
 	.body 
 		p {
 			line-height: 1.5em;
+			color: red + blue;
 		}
 }
