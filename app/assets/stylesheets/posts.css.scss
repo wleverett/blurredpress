@@ -1,3 +1,39 @@
 // Place all the styles related to the Posts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+$primary-color: #c4ca49;
+
+h1, h2, h3, h4, h5 {
+	color: $primary-color;
+}
+
+.post-preview {
+	border-bottom: 3px solid $primary-color;
+}
+
+p {
+	color: #1c515f;
+}
+
+a, a:visited {
+	color: darken($primary-color, 30%);
+}
+
+article {
+	h1.title {
+		font-style: italic;
+	}
+
+	time {
+			font:; {
+				weight: bold;
+				family: Verdana, Geneva, sans-serif;
+				size: 0.8em;
+			}
+	}
+
+	.body 
+		p {
+			line-height: 1.5em;
+		}
